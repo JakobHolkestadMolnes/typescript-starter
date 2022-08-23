@@ -9,6 +9,9 @@ module.exports = {
         'plugin:@typescript-eslint/recommended'
     ],
     'overrides': [
+        {
+            ig
+        }
     ],
     'parser': '@typescript-eslint/parser',
     'parserOptions': {
@@ -25,7 +28,7 @@ module.exports = {
         ],
         'linebreak-style': [
             'error',
-            'windows'
+            'unix'
         ],
         'quotes': [
             'error',
@@ -34,6 +37,10 @@ module.exports = {
         'semi': [
             'error',
             'always'
-        ]
+        ],
+        'end-of-file-newline': [
+            'error',
+            'never'
+        ],
     }
 };
